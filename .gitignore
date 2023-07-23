@@ -1,5 +1,36 @@
-# Created by https://www.toptal.com/developers/gitignore/api/macos,xcode,swift
-# Edit at https://www.toptal.com/developers/gitignore?templates=macos,xcode,swift
+# Created by https://www.toptal.com/developers/gitignore/api/macos,xcode,swift,cocoapods,fastlane
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos,xcode,swift,cocoapods,fastlane
+
+### CocoaPods ###
+## CocoaPods GitIgnore Template
+
+# CocoaPods - Only use to conserve bandwidth / Save time on Pushing
+#           - Also handy if you have a large number of dependant pods
+#           - AS PER https://guides.cocoapods.org/using/using-cocoapods.html NEVER IGNORE THE LOCK FILE
+Pods/
+
+### fastlane ###
+# fastlane - A streamlined workflow tool for Cocoa deployment
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/#source-control
+
+# fastlane specific
+**/fastlane/report.xml
+
+# deliver temporary files
+**/fastlane/Preview.html
+
+# snapshot generated screenshots
+**/fastlane/screenshots
+
+# scan temporary files
+**/fastlane/test_output
+
+# Fastlane.swift runner binary
+**/fastlane/FastlaneRunner
 
 ### macOS ###
 # General
@@ -36,7 +67,6 @@ Temporary Items
 
 ### Swift ###
 # Xcode
-#
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
 ## User settings
@@ -131,5 +161,7 @@ iOSInjectionProject/
 /*.gcno
 **/xcshareddata/WorkspaceSettings.xcsettings
 
-# End of https://www.toptal.com/developers/gitignore/api/macos,xcode,swift
+# End of https://www.toptal.com/developers/gitignore/api/macos,xcode,swift,cocoapods,fastlane
 
+# solve UserInterfaceState.xcuserstate
+*.xcuserstate
