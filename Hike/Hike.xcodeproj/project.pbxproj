@@ -14,6 +14,8 @@
 		8617547E2A6D129000A8586E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8617547D2A6D129000A8586E /* CardView.swift */; };
 		861754812A6D134000A8586E /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861754802A6D134000A8586E /* CustomBackgroundView.swift */; };
 		861754842A6D152C00A8586E /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861754832A6D152C00A8586E /* ColorExtension.swift */; };
+		8617DF312A7554F100082FA1 /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8617DF302A7554F100082FA1 /* CustomCircleView.swift */; };
+		8617DF332A75565B00082FA1 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8617DF322A75565B00082FA1 /* MotionAnimationView.swift */; };
 		869DD1A82A72BBEE00D8E260 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869DD1A72A72BBEE00D8E260 /* CustomButtonView.swift */; };
 		869DD1AA2A72C05800D8E260 /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869DD1A92A72C05800D8E260 /* GradientButtonStyle.swift */; };
 /* End PBXBuildFile section */
@@ -27,6 +29,8 @@
 		8617547D2A6D129000A8586E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		861754802A6D134000A8586E /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		861754832A6D152C00A8586E /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		8617DF302A7554F100082FA1 /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
+		8617DF322A75565B00082FA1 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		869DD1A72A72BBEE00D8E260 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 		869DD1A92A72C05800D8E260 /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,6 +89,8 @@
 				8617547D2A6D129000A8586E /* CardView.swift */,
 				861754802A6D134000A8586E /* CustomBackgroundView.swift */,
 				869DD1A72A72BBEE00D8E260 /* CustomButtonView.swift */,
+				8617DF302A7554F100082FA1 /* CustomCircleView.swift */,
+				8617DF322A75565B00082FA1 /* MotionAnimationView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -169,10 +175,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				861754702A6D02DD00A8586E /* ContentView.swift in Sources */,
+				8617DF312A7554F100082FA1 /* CustomCircleView.swift in Sources */,
 				8617547E2A6D129000A8586E /* CardView.swift in Sources */,
 				8617546E2A6D02DD00A8586E /* HikeApp.swift in Sources */,
 				869DD1A82A72BBEE00D8E260 /* CustomButtonView.swift in Sources */,
 				869DD1AA2A72C05800D8E260 /* GradientButtonStyle.swift in Sources */,
+				8617DF332A75565B00082FA1 /* MotionAnimationView.swift in Sources */,
 				861754812A6D134000A8586E /* CustomBackgroundView.swift in Sources */,
 				861754842A6D152C00A8586E /* ColorExtension.swift in Sources */,
 			);
