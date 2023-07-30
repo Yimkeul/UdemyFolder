@@ -49,10 +49,31 @@ struct SettingView: View {
                     .padding(.bottom,16)
                     .frame(maxWidth: .infinity)
             }.listRowSeparator(.hidden)
+            Section(
+                header: Text("ABOUT THE APP"),
+                footer:  HStack{
+                    Spacer()
+                    Text("Copyright @ All right reseved.")
+                    Spacer()
+                }
+                    .padding(.vertical,8)
+            ){
+                CustomListRowView(rowLabel: "Application", rowIcon: "apps.iphone", rowContent: "HIKE", rowTintColor: .blue)
+                
+                CustomListRowView(rowLabel: "Compatibility", rowIcon: "info.circle", rowContent: "iOS, iPadOS", rowTintColor: .red)
+                
+                CustomListRowView(rowLabel: "Technology", rowIcon: "swift", rowContent: "Swift", rowTintColor: .orange)
+                
+                CustomListRowView(rowLabel: "Version", rowIcon: "gear", rowContent: "1.0", rowTintColor: .purple)
+                
+                CustomListRowView(rowLabel: "Developer", rowIcon: "ellipsis.curlybraces", rowContent: "John Doe", rowTintColor: .mint)
+                
+                CustomListRowView(rowLabel: "Designer", rowIcon: "paintpalette", rowContent: "Robert Petras", rowTintColor: .pink)
+                
+                CustomListRowView(rowLabel: "Website", rowIcon: "globe", rowTintColor: .indigo, rowLinkLabel: "Credo Acedemy", rowLinkDestination: "https://credo.academy")
+            }
         }
-        .padding(.top,8)
     }
-    
 }
 
 struct SettingView_Previews: PreviewProvider {
